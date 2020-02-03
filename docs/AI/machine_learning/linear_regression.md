@@ -1,4 +1,5 @@
 # Linear Regression
+- [原文链接](http://101.132.45.94/2020/01/30/linear-regression/)
 - [stanford ufldl Linear Regression](http://ufldl.stanford.edu/tutorial/supervised/LinearRegression/)
 - [stanford cs229 ](http://cs229.stanford.edu/)
 - [stanford cs229 notes1](http://cs229.stanford.edu/notes2019fall/cs229-notes1.pdf)
