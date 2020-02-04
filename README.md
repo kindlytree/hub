@@ -37,21 +37,16 @@
 - **Part XIII** Reinforcement Learning and Control
 #### Deep Learning
   
-### Programming
-#### Python/[pytorch, numpy, etc]
+### Programming(Python/C/C++[pytorch, numpy, etc])
 - [python3 study resources](http://101.132.45.94/2020/01/26/python3-study-resources/)
-
-#### c/c++
+- [CMakeList.txt sample](https://github.com/kindlytree/c-c-/blob/master/cmake/CMakeLists.txt.sample)
 
 ### System/Tools
-
-#### Ubuntu
-#### docker,git, etc
+- [Ubutun Usage, Docker, Git, etc](https://github.com/kindlytree/sys_tools/blob/master/README.md)
 
 ### Life/Thinking
 #### Digest
 - [超个人经验与全球危机 |《超越自我之道》](http://101.132.45.94/2020/02/01/%e8%b6%85%e4%b8%aa%e4%ba%ba%e7%bb%8f%e9%aa%8c%e4%b8%8e%e5%85%a8%e7%90%83%e5%8d%b1%e6%9c%ba-%e3%80%8a%e8%b6%85%e8%b6%8a%e8%87%aa%e6%88%91%e4%b9%8b%e9%81%93%e3%80%8b/)
-#### Multi-Rule/Task Optimization
 #### Life, Work, Study balanced, Enjoy Life!!!
 - [2020‘ goal and plan](./docs/Life_Thinking/2020-goal-and-plan.md)
 
