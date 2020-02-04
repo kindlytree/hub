@@ -9,10 +9,32 @@
 - [Linear Algebra Review and Reference(1)](http://note.youdao.com/noteshare?id=b7a6cfe77e3906bdb5639d1acec3c88c)
 - [Linear Algebra Review and Reference(2)](http://note.youdao.com/noteshare?id=a3dda151febf0da4dc17df5ec918b41b)
 - [Entropy_Cross_Entropy_KL_Divergence](http://note.youdao.com/noteshare?id=b996997b7918d6c3fb9f6aa6813aa675)
+- [Taylor_expansion_Multi_Variables_Functions_extremum](http://note.youdao.com/noteshare?id=951f44d73e0777672abffc7ef891f2ea)
 
 #### Machine Learning
-- [Linear Regression](http://101.132.45.94/2020/01/30/linear-regression/)
-- [Understanding GBDT multi-class classification algorithm](http://101.132.45.94/2020/01/29/understanding-gbdt-multi-class-classification-algorithm/)
+  - **Part I** [Linear_Regression](http://101.132.45.94/2020/01/30/linear-regression/)
+  - **Part II** Classification and logistic regression
+      - [Logistic_Regression](http://note.youdao.com/noteshare?id=a62bb63c6a049ce5e0cdc8abfe8ba3fd)
+      - Newton's Method
+  - **Part III** Generalized Linear Models
+  - **Part IV** Generative Learning algorithms
+      - Gaussian discriminant analysis
+      - Naive Bayes
+  - **Part V** Kernel Methods
+  - **Part VI** SVM
+  - **Part VI** Learning Theory
+      - Bias/variance tradeoff
+      - Preliminaries
+      - The case of finite H
+      - The case of infinite H
+      - Regularization and model selection
+- The k-means clustering algorithm
+- Mixtures of Gaussians and the EM algorithm
+- **Part IX** The EM algorithm
+- **Part X** Factor analysis
+- **Part XI** Principal components analysis
+- **Part XII** Independent Components Analysis
+- **Part XIII** Reinforcement Learning and Control
 #### Deep Learning
   
 ### Programming
