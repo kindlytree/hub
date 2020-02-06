@@ -28,7 +28,7 @@
       - The case of finite H
       - The case of infinite H
       - Regularization and model selection
-  - **Adaboot**
+  - **Adaboost**
   - **Decision Tree**
   - **Random Forest**
   - **Tree Boosting**
@@ -56,7 +56,7 @@
 #### Computer Vision
 - Object Detection
 - Semantic/Instance Segmentation
-- [Image to image translation]
+- Image to image translation
     - [github](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) 
     - [pix2pix model definition](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/models/pix2pix_model.py)
 
