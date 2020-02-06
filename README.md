@@ -31,7 +31,10 @@
   - **Adaboot**
   - **Decision Tree**
   - **Random Forest**
-  - **GBDT**
+  - **Tree Boosting**
+      - GBDT
+      - XGBoost
+      - LightGBM
   - **HMM**
   - **MRF**
 - The k-means clustering algorithm
@@ -48,11 +51,14 @@
     - LSTM
 - GAN
 - VAE
+- Understanding Deep Learning
 
 #### Computer Vision
-- Image to image translation
 - Object Detection
-- Semantic/Instance Segmentation  
+- Semantic/Instance Segmentation
+- [Image to image translation]
+    - [github](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) 
+    - [pix2pix model definition](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/models/pix2pix_model.py)
 
 ### Programming(Python/C/C++[pytorch, numpy, etc])
 - [python3 study resources](http://101.132.45.94/2020/01/26/python3-study-resources/)
