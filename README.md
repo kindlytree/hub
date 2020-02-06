@@ -28,6 +28,12 @@
       - The case of finite H
       - The case of infinite H
       - Regularization and model selection
+  - **Adaboot**
+  - **Decision Tree**
+  - **Random Forest**
+  - **GBDT**
+  - **HMM**
+  - **MRF**
 - The k-means clustering algorithm
 - Mixtures of Gaussians and the EM algorithm
 - **Part IX** The EM algorithm
@@ -35,8 +41,19 @@
 - **Part XI** Principal components analysis
 - **Part XII** Independent Components Analysis
 - **Part XIII** Reinforcement Learning and Control
+
 #### Deep Learning
-  
+- CNN
+- RNN
+    - LSTM
+- GAN
+- VAE
+
+#### Computer Vision
+- Image to image translation
+- Object Detection
+- Semantic/Instance Segmentation  
+
 ### Programming(Python/C/C++[pytorch, numpy, etc])
 - [python3 study resources](http://101.132.45.94/2020/01/26/python3-study-resources/)
 - [CMakeList.txt sample](https://github.com/kindlytree/c-c-/blob/master/cmake/CMakeLists.txt.sample)
@@ -48,7 +65,7 @@
 #### Digest
 - [超个人经验与全球危机 |《超越自我之道》](http://101.132.45.94/2020/02/01/%e8%b6%85%e4%b8%aa%e4%ba%ba%e7%bb%8f%e9%aa%8c%e4%b8%8e%e5%85%a8%e7%90%83%e5%8d%b1%e6%9c%ba-%e3%80%8a%e8%b6%85%e8%b6%8a%e8%87%aa%e6%88%91%e4%b9%8b%e9%81%93%e3%80%8b/)
 #### Life, Work, Study balanced, Enjoy Life!!!
-- [2020‘ goal and plan](./docs/Life_Thinking/2020-goal-and-plan.md)
+- [2020‘ goal and plan](./docs/Life_Thinking/2020-goal-plan.md)
 
 ## TODO
 - github math latex editing support
