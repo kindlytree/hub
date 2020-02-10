@@ -3,7 +3,7 @@
 
 ## Components 
 
-### AI articles preparation
+### AI articles
 
 #### Math
 - [Linear Algebra Review and Reference(1)](http://note.youdao.com/noteshare?id=b7a6cfe77e3906bdb5639d1acec3c88c)
@@ -12,9 +12,9 @@
 - [Taylor_expansion_Multi_Variables_Functions_extremum](http://note.youdao.com/noteshare?id=951f44d73e0777672abffc7ef891f2ea)
 
 #### Machine Learning
-  - **Part I** [Linear_Regression](http://101.132.45.94/2020/01/30/linear-regression/)
+  - **Part I** [Linear_Regression](http://101.132.45.94/2020/01/30/linear-regression/) [code](https://github.com/kindlytree/ai/blob/master/samples/ml/linear_regression.ipynb)
   - **Part II** Classification and logistic regression
-      - [Logistic_Regression](http://note.youdao.com/noteshare?id=a62bb63c6a049ce5e0cdc8abfe8ba3fd)
+      - [Logistic_Regression](http://note.youdao.com/noteshare?id=a62bb63c6a049ce5e0cdc8abfe8ba3fd) [code](https://github.com/kindlytree/ai/blob/master/samples/ml/logistic_regression.ipynb)
       - Newton's Method
   - **Part III** Generalized Linear Models
   - **Part IV** Generative Learning algorithms
@@ -75,8 +75,5 @@
 - [2020‘ goal and plan](./docs/Life_Thinking/2020-goal-plan.md)
 
 ## TODO
-- github math latex editing support
-    - https://github.com/FelisCatus/SwitchyOmega/releases，页面滚动到下方，找到SwitchyOmega_Chromium.crx，点击链接下载crx文件,具体使用方式见note.youdao.com里边的记录
-    - https://www.zhihu.com/question/26887527 github上的markdown支持latex
-    - [chrome mathjax plugin](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)
-    - markdown编辑 插入公式方法 https://tding.top/archives/22f997b6.html 
+- machine learning content preparation
+
