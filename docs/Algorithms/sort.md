@@ -54,14 +54,14 @@ Out-place：占用额外内存。
 
 
 3. Python 代码
-
+```
 def bubbleSort(arr):
     for i in range(1, len(arr)):
         for j in range(0, len(arr)-i):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr
-
+```
 02 选择排序
 
 选择排序是一种简单直观的排序算法，无论什么数据进去都是 O(n²) 的时间复杂度。所以用到它的时候，数据规模越小越好。唯一的好处可能就是不占用额外的内存空间了吧。
@@ -79,7 +79,7 @@ def bubbleSort(arr):
 
 
 3. Python 代码
-
+```
 def selectionSort(arr):
     for i in range(len(arr) - 1):
         # 记录最小数的索引
@@ -91,7 +91,7 @@ def selectionSort(arr):
         if i != minIndex:
             arr[i], arr[minIndex] = arr[minIndex], arr[i]
     return arr
-
+```
 
 03 插入排序
 
@@ -110,7 +110,7 @@ def selectionSort(arr):
 
 
 3. Python 代码
-
+```
 def insertionSort(arr):
     for i in range(len(arr)):
         preIndex = i-1
@@ -120,7 +120,7 @@ def insertionSort(arr):
             preIndex-=1
         arr[preIndex+1] = current
     return arr
-
+```
 04 希尔排序
 
 希尔排序，也称递减增量排序算法，是插入排序的一种更高效的改进版本。但希尔排序是非稳定排序算法。
@@ -141,7 +141,7 @@ def insertionSort(arr):
 
 
 2. Python 代码
-
+```
 def shellSort(arr):
     import math
     gap=1
@@ -158,7 +158,7 @@ def shellSort(arr):
         gap = math.floor(gap/3)
     return arr
 }
-
+```
 05 归并排序
 
 归并排序（Merge sort）是建立在归并操作上的一种有效的排序算法。该算法是采用分治法（Divide and Conquer）的一个非常典型的应用。
@@ -184,7 +184,7 @@ def shellSort(arr):
 
 
 3. Python 代码
-
+```
 def mergeSort(arr):
     import math
     if(len(arr)<2):
@@ -204,7 +204,7 @@ def merge(left,right):
     while right:
         result.append(right.pop(0));
     return result
-
+```
 06 快速排序
 
 快速排序是由东尼·霍尔所发展的一种排序算法。在平均状况下，排序 n 个项目要 Ο(nlogn) 次比较。在最坏状况下则需要 Ο(n2) 次比较，但这种状况并不常见。事实上，快速排序通常明显比其他 Ο(nlogn) 算法更快，因为它的内部循环（inner loop）可以在大部分的架构上很有效率地被实现出来。
@@ -233,7 +233,7 @@ def merge(left,right):
 
 
 3. Python 代码
-
+```
 def quickSort(arr, left=None, right=None):
     left = 0 if not isinstance(left,(int, float)) else left
     right = len(arr)-1 if not isinstance(right,(int, float)) else right
@@ -256,7 +256,7 @@ def partition(arr, left, right):
 
 def swap(arr, i, j):
     arr[i], arr[j] = arr[j], arr[i]
-
+```
 07 堆排序
 
 堆排序（Heapsort）是指利用堆这种数据结构所设计的一种排序算法。堆积是一个近似完全二叉树的结构，并同时满足堆积的性质：即子结点的键值或索引总是小于（或者大于）它的父节点。堆排序可以说是一种利用堆的概念来排序的选择排序。分为两种方法：
@@ -279,7 +279,7 @@ def swap(arr, i, j):
 
 
 3. Python 代码
-
+```
 def buildMaxHeap(arr):
     import math
     for i in range(math.floor(len(arr)/2),-1,-1):
@@ -309,7 +309,7 @@ def heapSort(arr):
         arrLen -=1
         heapify(arr, 0)
     return arr
-
+```
 08 计数排序
 
 计数排序的核心在于将输入的数据值转化为键存储在额外开辟的数组空间中。作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。
@@ -318,7 +318,7 @@ def heapSort(arr):
 ![count](./sort/count.gif)
 
 2. Python 代码
-
+```
 def countingSort(arr, maxValue):
     bucketLen = maxValue+1
     bucket = [0]*bucketLen
@@ -334,6 +334,7 @@ def countingSort(arr, maxValue):
             sortedIndex+=1
             bucket[j]-=1
     return arr
+```
 
 09 桶排序
 
@@ -354,7 +355,7 @@ def countingSort(arr, maxValue):
 当输入的数据被分配到了同一个桶中。
 
 Python 代码
-
+```
 def bucket_sort(s):
     """桶排序"""
     min_num = min(s)
@@ -376,6 +377,7 @@ if __name__ == __main__ :
     a = [3.2,6,8,4,2,6,7,3]
 bucket_sort(a)
 print(a) # [2, 3, 3.2, 4, 6, 6, 7, 8]
+```
 
 10 基数排序
 
@@ -396,7 +398,7 @@ print(a) # [2, 3, 3.2, 4, 6, 6, 7, 8]
 
 
 3. Python 代码
-
+```
 def RadixSort(list):
     i = 0                                    #初始为个位排序
     n = 1                                     #最小的位数置为1（包含0）
@@ -419,3 +421,4 @@ def RadixSort(list):
                     j += 1
         i += 1
 return  list
+```
