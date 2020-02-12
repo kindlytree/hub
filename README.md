@@ -15,7 +15,7 @@
   - **Part I** [Linear_Regression](http://101.132.45.94/2020/01/30/linear-regression/) [code](https://github.com/kindlytree/ai/blob/master/samples/ml/linear_regression.ipynb)
   - **Part II** Classification and logistic regression
       - [Logistic_Regression](http://note.youdao.com/noteshare?id=a62bb63c6a049ce5e0cdc8abfe8ba3fd) [code](https://github.com/kindlytree/ai/blob/master/samples/ml/logistic_regression.ipynb)
-      - Newton's Method
+      - [Newton's Method](http://note.youdao.com/noteshare?id=57e9b323d4ae19c215c421fcac32b638)
   - **Part III** Generalized Linear Models
   - **Part IV** Generative Learning algorithms
       - Gaussian discriminant analysis
@@ -61,8 +61,10 @@
     - [github](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) 
     - [pix2pix model definition](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/models/pix2pix_model.py)
 
-### Programming(Python/C/C++[pytorch, numpy, etc])
+### Programming
+#### Python
 - [python3 study resources](http://101.132.45.94/2020/01/26/python3-study-resources/)
+#### C/C++
 - [CMakeList.txt sample](https://github.com/kindlytree/c-c-/blob/master/cmake/CMakeLists.txt.sample)
 
 ### System/Tools
