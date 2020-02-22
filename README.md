@@ -15,8 +15,8 @@
   - **Part I** [Linear_Regression](http://101.132.45.94/2020/01/30/linear-regression/) [code](https://github.com/kindlytree/ai/blob/master/samples/ml/linear_regression.ipynb)
   - **Part II** Classification and logistic regression
       - [Logistic_Regression](http://note.youdao.com/noteshare?id=a62bb63c6a049ce5e0cdc8abfe8ba3fd) [code](https://github.com/kindlytree/ai/blob/master/samples/ml/logistic_regression.ipynb)
-      - [Newton's Method](http://note.youdao.com/noteshare?id=57e9b323d4ae19c215c421fcac32b638)
-  - **Part III** Generalized Linear Models
+      - Newton's Method  [Newton's Method](http://note.youdao.com/noteshare?id=57e9b323d4ae19c215c421fcac32b638) [code](https://github.com/kindlytree/ai/blob/master/samples/ml/newton_method.ipynb)
+  - **Part III** [Generalized Linear Models](http://note.youdao.com/noteshare?id=b814a849cf4752746518d4f63ef0d79c)
   - **Part IV** Generative Learning algorithms
       - Gaussian discriminant analysis
       - Naive Bayes
